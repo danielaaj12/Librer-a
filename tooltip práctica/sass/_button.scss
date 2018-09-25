@@ -1,0 +1,16 @@
+
+button{
+    text-transform: uppercase;
+    outline: none;
+    &:hover span{
+        visibility: visible;
+    }
+    &:hover{
+        background: transparent;
+        border: 2px solid;
+        cursor: pointer;
+    }
+    &:active{
+        font-size: 16px;
+    }
+}

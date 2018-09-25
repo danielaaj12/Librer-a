@@ -1,0 +1,55 @@
+$color-1:#DF01A5;
+
+.container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+}
+
+.container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    /*color del botón*/
+    button{
+        background: transparent;
+        border: 2px solid $color-1;
+        cursor: pointer;
+        color: $color-1;
+      }
+    }
+    /*Estilos del  tooltip*/
+    span{
+      letter-spacing: 1px;
+      z-index: 1;
+      display: inline-block;
+      height: 40px;
+      width: 100px;
+      color: #fff;
+      position: absolute;
+      left: 215px;
+      top: 0px;
+      background: $color-1;
+      line-height: 2.5;
+      padding: 0 20px;
+      &:before { 
+      position: absolute;
+      content: "";
+      top: 10px;
+      left: -19px;
+      border-width: 10px;
+      border-style: solid;
+      border-color:  transparent $color-1 transparent transparent;
+      }
+    } 
+    
