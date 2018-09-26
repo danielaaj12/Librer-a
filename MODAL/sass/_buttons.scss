@@ -1,0 +1,19 @@
+/* Botón para abrir Modal */
+#abrir{
+    background-color:#D2B1E3;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: Nanum Gothic;
+    font-size: 20px;
+    height: 55px;
+    width: 140px;
+}
+
+/* Botón para cerrar el Modal */
+.cerrar {
+    border: #74ac0d;
+    cursor: pointer;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}

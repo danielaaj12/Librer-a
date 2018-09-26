@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* fondo Modal */
+#modalSeccion {
+  display: none;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Caja de Modal*/
+.ContenidoModal {
+  background-color: #44B7C8;
+  border-radius: 3px;
+  color: aliceblue;
+  font-family: Nanum Gothic;
+  font-size: 36px;
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Botón para abrir Modal */
+#abrir {
+  background-color: #D2B1E3;
+  border-radius: 5px;
+  color: aliceblue;
+  font-family: Nanum Gothic;
+  font-size: 20px;
+  height: 55px;
+  width: 140px;
+}
+
+/* Botón para cerrar el Modal */
+.cerrar {
+  border: #74ac0d;
+  cursor: pointer;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
